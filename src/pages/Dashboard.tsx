@@ -188,7 +188,7 @@ const Dashboard = () => {
             <Button asChild className="w-full justify-start h-auto p-4" variant="outline">
               <Link to="/profile" className="flex items-center gap-3">
                 <div className="bg-warning/10 p-2 rounded-lg">
-                  <Building2 className="h-5 w-5 text-warning" />
+                  <Building2 className="h-5 w-5 text-primary" />
                 </div>
                 <div className="text-left">
                   <div className="font-medium">Update Company Profile</div>
