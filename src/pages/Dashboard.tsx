@@ -9,7 +9,8 @@ import {
   Eye,
   Calendar,
   MapPin,
-  ArrowRight
+  ArrowRight,
+  Building2
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -174,8 +175,8 @@ const Dashboard = () => {
             
             <Button asChild className="w-full justify-start h-auto p-4" variant="outline">
               <Link to="/jobs" className="flex items-center gap-3">
-                <div className="bg-success/10 p-2 rounded-lg">
-                  <Briefcase className="h-5 w-5 text-success" />
+                <div className="bg-primary/10 p-2 rounded-lg">
+                  <Briefcase className="h-5 w-5 text-primary" />
                 </div>
                 <div className="text-left">
                   <div className="font-medium">Browse Job Market</div>
@@ -186,8 +187,8 @@ const Dashboard = () => {
             
             <Button asChild className="w-full justify-start h-auto p-4" variant="outline">
               <Link to="/profile" className="flex items-center gap-3">
-                <div className="bg-warning/10 p-2 rounded-lg">
-                  <Users className="h-5 w-5 text-warning" />
+                <div className="bg-primary/10 p-2 rounded-lg">
+                  <Building2 className="h-5 w-5 text-primary" />
                 </div>
                 <div className="text-left">
                   <div className="font-medium">Update Company Profile</div>
